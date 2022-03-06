@@ -1,0 +1,71 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <header>
+        @{
+            Html.RenderPartial("_PartialNavbar");
+        }
+    </header>
+    <section>
+        <div class="Emptyspace">
+
+        </div>
+        <div class="Aboutus">
+            <div class="Aboutustext">
+                <h1 class="abtushead">The Restaurant</h1>
+                <br><br>
+                <p class="therestext">
+                    Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                    <br><br>
+                    It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                </p>
+            </div>
+            <br>
+        </div>
+    </section>
+    <section>
+        <div class="imagegrid">
+            <div class="imagegridcontent">
+                <div class="row1 row">
+                    <div class="col1 col colimageabt colimage1to1">
+                        
+                    </div>
+                    <div class="col2 col colimageabt colimage1to2">
+
+                    </div>
+                    <div class="col2 col colimageabt colimage1to3">
+
+                    </div>
+                </div>
+                <div class="row2 row">
+                    <div class="col1 col colimageabt colimage2to1">
+
+                    </div>
+                    <div class="col2 col colimageabt colimage2to2">
+
+                    </div>
+                    <div class="col2 col colimageabt colimage2to3">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <footer>
+        @{
+            Html.RenderPartial("_PartialFooter");
+        }
+    </footer>
+</body>
+</html>

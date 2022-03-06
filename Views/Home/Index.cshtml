@@ -1,0 +1,190 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <header>
+        @{
+            Html.RenderPartial("_PartialNavbar");
+        }
+    </header>
+    <div class="MainFood" align="center">
+        <div class="empty">
+
+        </div>
+        <div class="welcome">
+            <h1 class="welcometext">Welcome to Meal</h1>
+        </div>
+        <br>
+        <div class="reserve">
+            <a id="revtabletext" href="/TableBooking" target="_blank"><h5 class="revtabletext">RESERVE A TABLE</h5></a>
+        </div>
+    </div>
+
+    <section>
+        <div class="findyourbestfood" align="center">
+            <br>
+            <h1 class="bestfoodmainhead">Find your best food</h1>
+            <p>Colorlib Meal Template For Restaurants recreated by Shreyansh Kumar Gupta</p>
+            
+            <div class="bestfoodcontainer">
+                <div class="row1 row">
+                    <div class="col1 col colimage1">
+                        
+                    </div>
+                    <div class="col2 col colveggie">
+                        <h6 class="bestfoodhead">VEGIES</h6>
+                        <h5>PALAK PANEER</h5>
+                        <br>
+                        <p>
+                            The smooth velet texture Palak Paneer which is made by the best rich sweet pieces of Paneer and organic Spinach
+                            working in perfect harmony to make most delicious combo of fat and veggie.
+                        </p>
+                        <a href="/Menu" class="lrnmore" target="_blank">LEARN MORE-></a>
+                        @*<p class="lrnmore">LEARN MORE-></p>*@
+                    </div>
+                    <div class="col3 col colimage2">
+                        
+                    </div>
+                </div>
+                <div class="row2 row">
+                    <div class="col1 col colFOOD">
+                        <h6 class="bestfoodhead">FOOD</h6>
+                        <h5>CHOLA BHATURA</h5>
+                        <br>
+                        <p>
+                            Finest of Organic Chickpeas being selected for
+                            this classic comfort food originated from the streets of
+                            Capital Delhi.
+                            Flatbread so rich, yet so light that you are often left with craving for more.
+                        </p>
+                        <a href="/Menu" class="lrnmore" target="_blank">LEARN MORE-></a>
+                        @*<p class="lrnmore">LEARN MORE-></p>*@
+                    </div>
+                    <div class="col2 col colimage3">
+                        
+                    </div>
+                    <div class="col3 col colFOOD">
+                        <h6 class="bestfoodhead">SOUTH INDIAN</h6>
+                        <h5>SAMBHAR VADA</h5>
+                        <br>
+                        <p>
+                            South Indian food's beauty lies in being a perfect combination of Healthy cereals and carb goodness of Rice.
+                            Sambhar made with finest of Dal, that's further matched with perfectly fragmented Vada dough to a make class breakfast king of
+                            South India.
+                        </p>
+                        <a href="/Menu" class="lrnmore" target="_blank">LEARN MORE-></a>
+                        @*<p class="lrnmore">LEARN MORE-></p>*@
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="meethechefs" align="center">
+            <br>
+            <h1 class="meetchefshead">Meet the Chefs</h1>
+            <div class="chefscontainer" align="center">
+                <div class="row1 row">
+                    <div class="col1 col colchef1">
+                        <img class="chef1image" src="~/Images/Chef1.jpg" />
+                        <br><br>
+                        <h2>Daniel Graham</h2>
+                        <h5 class="chefpost">MASTER CHEF</h5>
+                        <br>
+                        <p class="chefpost">
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                            <br><br>
+                            Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. It is a paradisematic country.
+                        </p>
+                        <br>
+                        <img src="~/Images/Social.png" />
+                    </div>
+                    <div class="col2 col colchef2">
+                        <img class="chef2image" src="~/Images/Chef2.jpg" />
+                        <br><br>
+                        <h2>Nick Browning</h2>
+                        <h5 class="chefpost">MASTER CHEF</h5>
+                        <br>
+                        <p class="chefpost">
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                            <br><br>
+                            Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. It is a paradisematic country.
+                        </p>
+                        <br>
+                        <img src="~/Images/Social.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="reviewscontainer" align="center">
+            <br>
+            <div class="reviews">
+                <h1 class="reviewshead">Customer Reviews</h1>
+                <br>
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <p>
+                                "Searching for places to eat in the local area and this place popped up. I don’t normally leave reviews but I feel compelled as the food was absolutely exquisite.
+                                <br>The Meal may be the best Indian Restaurent I’ve ever been! Just annoyed I had to share it."
+                                <br><br><br><img class="reviewimage" src="~/Images/Review1.jpg" />
+                                <h5>Time Cook</h5>
+                                CEO, Apple
+                                <br>
+                            </p>
+                        </div>
+                        <div class="carousel-item">
+                            <p>
+                                "Amaaaazing food! The whole experience from start to finish is great waitress is always so friendly and kind.
+                                <br>The food can’t get better and the prices are fair for the portion size. Always a great spot to get great food.I highly, highly recommend this place."
+                                <br><br><br><img class="reviewimage" src="~/Images/Review5.jpg" />
+                                <h5>Rowan Atkinson</h5>
+                                Film and Theater Actor
+                                <br>
+                            </p>
+                        </div>
+                        <div class="carousel-item">
+                            @*<img src="~/Images/Chef2.jpg" class="d-block w-100" alt="...">*@
+                            <p>
+                                "The food at Meal is exceptional! Very tasty and well prepared and you can chose among many menu options.
+                                <br>I love the service at the place and the chef is so friendly with the guests and always takes care to offer the best quality!"
+                                <br><br><br><img class="reviewimage" src="~/Images/Review3.jpg" />
+                                <h5>Miquel Barcelo</h5>
+                                Famous Painter
+                            </p>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        var myCarousel = document.querySelector('#myCarousel')
+        var carousel = new bootstrap.Carousel(myCarousel)
+    </script>
+    <footer>
+        @{ 
+            Html.RenderPartial("_PartialFooter");
+        }
+    </footer>
+</body>
+</html>

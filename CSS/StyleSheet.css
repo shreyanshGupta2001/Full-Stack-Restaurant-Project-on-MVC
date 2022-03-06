@@ -1,0 +1,515 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    /*background-color: transparent;*/
+    background-color: white;
+}
+/*.container-fluid {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}*/
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    margin-left: 47%;
+    border: 5px solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    /*margin-top: 30px;*/
+    background: url("../Images/Review4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#MofMeal {
+    color: white;
+    background-color: rgba(255, 255, 255, .3)
+}
+.footercontainer {
+    background-color: black;
+    color: white;
+    height: 400px;
+    padding: 50px;
+}
+.headinFooter {
+    font-family: 'Noto Serif Display', serif;
+}
+.contentinFooter
+{
+    color: lightgrey;
+}
+.footer {
+    margin: auto;
+    width: 58%;
+}
+.MainFood {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url("../Images/HomePage.jpg" );
+    height: 100vh;
+    background-position:center;
+    background-size: cover;
+}
+.empty
+{
+    height: 30vh;
+}
+.welcome {
+    font-family: 'Averia Libre', cursive;
+    color: white;
+}
+.welcometext
+{
+    font-size: 80px;
+}
+.reserve {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+.revtabletext {
+    font-size: 17px;
+    border: solid white;
+    width: 15%;
+    padding: 20px;
+    border-radius: 4px;
+    transition: all .2s linear;
+}
+#revtabletext
+{
+    text-decoration: none;
+    color: white;
+}
+
+.revtabletext:hover {
+    background-color: white;
+    color: black;
+}
+.findyourbestfood {
+    font-family: 'Noto Serif Display', serif;
+    background-color: #f5f5f5;
+}
+.bestfoodhead
+{
+    color: green;
+}
+.bestfoodmainhead
+{
+    font-size: 60px;
+}
+.lrnmore {
+    color: green;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    text-decoration: none;
+}
+.lrnmore:hover
+{
+    color: green;
+}
+.colveggie
+{
+    background-color: white;
+    padding: 12px;
+}
+.colFOOD
+{
+    background-color: white;
+    padding: 12px;
+}
+.colimage1 {
+    padding: 12px;
+    background: url("../Images/Paneer.jpg" );
+    background-position: center;
+    background-size: cover;
+}
+.colimage2 {
+    padding: 12px;
+    background: url("../Images/MainFood2.jpg" );
+    background-position: center;
+    background-size: cover;
+}
+.colimage3 {
+    padding: 12px;
+    background: url("../Images/MainFood1.jpg" );
+    background-position: center;
+    background-size: cover;
+}
+.bestfoodcontainer
+{
+    margin: auto;
+    width: 80%;
+    padding: 50px;
+}
+.meethechefs {
+    font-family: 'Noto Serif Display', serif;
+}
+.meetchefshead
+{
+    font-size: 60px;
+}
+.meethechefs
+{
+    margin: auto;
+    width: 90%;
+}
+.chef1image {
+    /*height: 200px;*/
+    width: 450px;
+    /*border-radius: 50%;*/
+    clip-path: circle();
+    filter: grayscale(100%);
+    transition: all .2s linear;
+}
+.chef1image:hover
+{
+    filter: grayscale(0%);
+}
+.chef2image {
+    /*height: 200px;*/
+    width: 450px;
+    /*border-radius: 50%;*/
+    clip-path: circle();
+    filter: grayscale(100%);
+    transition: all .2s linear;
+}
+.chef2image:hover {
+    filter: grayscale(0%);
+}
+.chefpost {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+}
+.colchef1
+{
+    padding: 20px;
+    margin: 60px;
+}
+.colchef2
+{
+    margin: 30px;
+    padding: 60px;
+}
+.Emptyspace
+{
+    height: 20vh;
+}
+.Emptyspace2 {
+    height: 10vh;
+}
+.reviewscontainer {
+    background-color: #f5f5f5;
+    height: 80vh;
+}
+.reviews
+{
+    margin: auto;
+    width: 60%;
+}
+.carousel
+{
+    padding: 30px;
+}
+.reviewimage {
+    width: 250px;
+    clip-path: circle();
+}
+.reviewshead {
+    font-family: 'Noto Serif Display', serif;
+    font-size: 50px;
+}
+.Aboutustext
+{
+    margin-left: 300px;
+    width: 60%;
+    padding: 40px;
+}
+.abtushead {
+    font-family: 'Noto Serif Display', serif;
+    font-size: 60px;
+}
+.therestext {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: gray;
+}
+.imagegrid
+{
+    width: 100%;
+    padding: 20px;
+}
+/*.imagegridcontent
+{
+    height: 80vh;
+}*/
+.colimage1to1 {
+    background: url("../Images/Samosa.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 12px;
+    height: 40vh;
+}
+.colimage2to1 {
+    background: url("../Images/MainFood2.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 12px;
+    height: 40vh;
+}
+.colimage1to2 {
+    background: url("../Images/Paneer.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 12px;
+    height: 40vh;
+}
+.colimage2to2 {
+    background: url("../Images/quad2.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 12px;
+    height: 40vh;
+}
+.colimage1to3 {
+    background: url("../Images/MainFood0.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 12px;
+    height: 40vh;
+}
+.colimage2to3 {
+    background: url("../Images/quad4.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 12px;
+    height: 40vh;
+}
+.colimageabt
+{
+    margin: 5px;
+}
+.menu {
+    background-color:#f5f5f5;
+    /*background-color: white;*/
+}
+.breakfast
+{
+    margin: auto;
+    width: 38%;
+}
+.colbreakfast1 {
+    background: url("../Images/Chole2.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    height: 15vh;
+}
+.colbreakfast2 {
+    background: url("../Images/MainFood1.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    height: 15vh;
+}
+.colbreakfast3 {
+    background: url("../Images/Samosa.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    height: 15vh;
+}
+.colbreakfast4 {
+    background: url("../Images/pav.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    height: 15vh;
+}
+.brunch {
+    margin: auto;
+    width: 38%;
+}
+.colbrunch1 {
+    background: url("../Images/quad2.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    height: 15vh;
+}
+.colbrunch2 {
+    background: url("../Images/Para.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    height: 15vh;
+}
+.colbrunch3 {
+    background: url("../Images/Poha.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    height: 15vh;
+}
+.dinner {
+    margin: auto;
+    width: 38%;
+}
+.coldinner1 {
+    background: url("../Images/Paneer.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    height: 15vh;
+}
+.coldinner2 {
+    background: url("../Images/palak.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    height: 15vh;
+}
+.coldinner3 {
+    background: url("../Images/Dal.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    height: 15vh;
+}
+.coldinner4 {
+    background: url("../Images/malai.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    height: 15vh;
+}
+.coldinner5 {
+    background: url("../Images/quad4.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    height: 15vh;
+}
+.coldinner6 {
+    background: url("../Images/mix.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    height: 15vh;
+}
+.menuhead {
+    font-family: 'Noto Serif Display', serif;
+    font-size: 60px;
+}
+.reservation {
+    background-color: #f5f5f5;
+    /*background-color: white;*/
+}
+.revhead {
+    font-family: 'Noto Serif Display', serif;
+    font-size: 60px;
+}
+.reservationtable {
+    background-color: white;
+    padding: 60px;
+    width: 70%;
+    margin: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .10);
+    color: gray;
+}
+.row1ofrev
+{
+    margin: auto;
+    margin-left: 30px;
+}
+.row2ofrev {
+    margin: auto;
+    margin-left: 30px;
+}
+.txtbox
+{
+    border-radius: 4px;
+    border-color: gray;
+    border: solid 1.5px;
+    padding: 3px;
+    width: 250px;
+}
+.txtbox:hover
+{
+    border-color: orange;
+}
+.reservationbtn {
+    width: 250px;
+    padding: 5px;
+    border-radius: 4px;
+    border-color: orange;
+    background-color: white;
+    color: orange;
+    font-weight: bold;
+    border: solid 2px;
+    transition: all .2s linear;
+}
+.reservationbtn:hover
+{
+    background-color: orange;
+    color: white;
+}
+.tbllayout {
+    box-shadow: 0 0 20px rgba(0, 0, 0, .10);
+}
+.Emptyspace3 {
+    height: 15vh;
+}
+
+.contactus {
+    background-color: #f5f5f5;
+}
+.contacthead {
+    font-family: 'Noto Serif Display', serif;
+    font-size: 60px;
+}
+.contactusblocks
+{
+    margin: auto;
+    width: 75%;
+}
+.colcontact {
+    background-color: white;
+    margin: 15px;
+    padding: 8px;
+    border-radius: 5px;
+    width: 10px;
+    justify-content: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .10);
+}
+.rowcontact
+{
+    margin: auto;
+    width: 45%;
+}
+.reslogo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border: 5px solid;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-position: center;
+    background-size: cover;
+    color: black;
+    text-decoration: none;
+    margin-left: 1.5%;
+}
+.reslogo:hover
+{
+    color: black;
+}
+

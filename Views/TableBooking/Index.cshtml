@@ -1,0 +1,107 @@
+﻿@model MVCproject.Models.TableRes
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+<link href="~/CSS/StyleSheet.css" rel="stylesheet" />
+
+<header>
+    @{
+        Html.RenderPartial("_PartialNavbar");
+    }
+</header>
+<div class="Emptyspace2">
+
+</div>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="reservation">
+    <br>
+    <center>
+        <h1 class="revhead">Reservation</h1>
+        <p>Colorlib Meal Template For Restaurants recreated by Shreyansh Kumar Gupta</p>
+    </center>
+    <div class="reservationtable">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="row1 row row1ofrev">
+            <div class="col1 col">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control txtbox" } })
+                        @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+            <div class="col2 col">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control txtbox" } })
+                        @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+            <div class="col3 col">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Phone, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Phone, new { htmlAttributes = new { @class = "form-control txtbox" } })
+                        @Html.ValidationMessageFor(model => model.Phone, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row2 row row2ofrev">
+            <div class="col1 col">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.NoPerson, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.NoPerson, new { htmlAttributes = new { @class = "form-control txtbox" } })
+                        @Html.ValidationMessageFor(model => model.NoPerson, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+            <div class="col2 col">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Date, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Date, new { htmlAttributes = new { @class = "form-control txtbox" } })
+                        @Html.ValidationMessageFor(model => model.Date, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+            <div class="col3 col">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Time, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Time, new { htmlAttributes = new { @class = "form-control txtbox" } })
+                        @Html.ValidationMessageFor(model => model.Time, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="form-group submitbutton" align="center">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="RESERVE NOW" class="btn btn-default reservationbtn" />
+            </div>
+        </div>
+    </div>
+    <br>
+    <p> @ViewBag.Message</p>
+    <br>
+</div>
+}
+
+@*<div>
+        @Html.ActionLink("Back to List", "Index")
+    </div>*@
+<footer>
+    @{
+        Html.RenderPartial("_PartialFooter");
+    }
+</footer>

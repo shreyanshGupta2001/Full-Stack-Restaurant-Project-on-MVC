@@ -1,0 +1,84 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <header>
+        @{
+            Html.RenderPartial("_PartialNavbar");
+        }
+    </header>
+    <div class="Emptyspace3">
+
+    </div>
+    <div class="contactus">
+        <center><h1 class="contacthead">Contact Us</h1></center>
+        <br>
+        <div class="contactusblocks">
+            <div class="row1 row">
+                <div class="col1 col colcontact" align="center">
+                    <img src="~/Images/phone.png" />
+                    <h5>Phone</h5>
+                    <p>
+                        +91 1234567891,  +91 9876543210
+                    </p>
+                </div>
+                <div class="col2 col colcontact" align="center">
+                    <img src="~/Images/res.png" />
+                    <h5>Address</h5>
+                    <p>221A and 221B Baker Street, Ground and First Floors</p>
+                </div>
+                <div class="col3 col colcontact" align="center">
+                    <img src="~/Images/mail.png" />
+                    <h5>Email Address</h5>
+                    <p>You can write us at mealrestaurant@mail.com</p>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row2 row rowcontact" align="center">
+                <div class="col1 col" align="center">
+                    <a href="#"><img src="~/Images/meta.png" /></a>
+                    <p>Meta</p>
+                </div>
+                <div class="col2 col" align="center">
+                    <a href="#"><img src="~/Images/twitter.png" /></a>
+                    <p>Twitter</p>
+                </div>
+                <div class="col3 col" align="center">
+                    <a href="#"><img src="~/Images/chimp.png" /></a>
+                    <p>Chimp</p>
+                </div>
+                <div class="col4 col" align="center">
+                    <a href="#"><img src="~/Images/Insta.png" /></a>
+                    <p>Instagram</p>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="companylogo" align="center">
+            <p>
+                <a class="reslogo" href="/Home">M</a>&nbsp;®️
+            </p>
+        </div>
+        <br>
+        <center>
+            <p>Recreated by Shreyansh Kumar Gupta <a href="https://github.com/shreyanshGupta2001" target="_blank"><img src="~/Images/git.png" /></a></p>
+        </center>
+        <br>
+    </div>
+    <footer>
+        @{
+            Html.RenderPartial("_PartialFooter");
+        }
+    </footer>
+</body>
+</html>
