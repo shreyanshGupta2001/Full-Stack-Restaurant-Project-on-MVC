@@ -10,4 +10,37 @@ I downloaded images from: https://www.wallpaperflare.com/ and https://wallpaperc
 
 # Screenshots
 
+# HOME
+
+![](Screenshots/1.png)
+
+![](Screenshots/2.png)
+
+![](Screenshots/3.png)
+
+![](Screenshots/4.png)
+
+![](Screenshots/5.png)
+
+# ABOUT
+
+![](Screenshots/6.png)
+
+# MENU
+
+![](Screenshots/7.png)
+
+![](Screenshots/8.png)
+
+# CONTACT US
+
+![](Screenshots/9.png)
+
+# TABLE REVERSE
+
+![](Screenshots/10.png)
+
+# DATABASE
+
+![](Screenshots/12.png)
 
